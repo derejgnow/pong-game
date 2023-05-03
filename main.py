@@ -18,7 +18,7 @@ WINNING_SCORE = 5
 screen = Screen()
 screen.bgcolor('black')
 screen.tracer(0)
-prompt = screen.textinput(title='Pong', prompt='Begin Game? ').lower()
+prompt = screen.textinput(title='Pong', prompt='Enter Fullscreen\nBegin Game? (y/n)').lower()
 screen.listen()
 
 if prompt == 'y':

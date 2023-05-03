@@ -1,1 +1,3 @@
-# pong-game
+# Pong Game 
+## Further Improvements
+- Multiplayer game mode
